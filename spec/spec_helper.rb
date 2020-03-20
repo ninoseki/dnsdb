@@ -12,7 +12,7 @@ Coveralls.wear!
 
 require "vcr"
 
-require "dsndb"
+require "dnsdb"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

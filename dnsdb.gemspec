@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 
-require_relative 'lib/dsndb/version'
+require_relative 'lib/dnsdb/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "dsndb"
+  spec.name          = "dnsdb"
   spec.version       = DNSDB::VERSION
   spec.authors       = ["Manabu Niseki"]
   spec.email         = ["manabu.niseki@gmail.com"]
