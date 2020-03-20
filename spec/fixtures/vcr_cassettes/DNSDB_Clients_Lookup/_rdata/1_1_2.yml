@@ -1,325 +1,325 @@
 ---
 http_interactions:
-- request:
-    method: get
-    uri: https://api.dnsdb.info//lookup/rdata/name/github.com
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - application/json
-      User-Agent:
-      - Ruby
-      Host:
-      - api.dnsdb.info
-      X-Api-Key:
-      - "<CENSORED>"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Server:
-      - nginx/1.10.3
-      Date:
-      - Thu, 19 Mar 2020 22:56:23 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Vary:
-      - Accept-Encoding
-      X-Ratelimit-Limit:
-      - '500'
-      X-Ratelimit-Remaining:
-      - '476'
-      X-Ratelimit-Reset:
-      - n/a
-      X-Ratelimit-Expires:
-      - '1587230628'
-      Access-Control-Allow-Origin:
-      - "*"
-      Access-Control-Expose-Headers:
-      - X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-RateLimit-Expires
-      Access-Control-Max-Age:
-      - '86400'
-      Access-Control-Allow-Credentials:
-      - 'true'
-      Access-Control-Allow-Methods:
-      - GET, POST
-      Access-Control-Allow-Headers:
-      - Accept, Cache-Control, Pragma, Origin, Authorization, Cookie, Content-Type,
-        X-API-Key
-      Strict-Transport-Security:
-      - max-age=15768000
-      Expires:
-      - "-1"
-      Cache-Control:
-      - private, max-age=0
-    body:
-      encoding: ASCII-8BIT
-      string: |
-        {"count":294,"time_first":1582569419,"time_last":1584556391,"rrname":"iscoot.ru.","rrtype":"NS","rdata":"github.com."}
-        {"count":442,"time_first":1575140335,"time_last":1584557932,"rrname":"sutangu.ru.","rrtype":"NS","rdata":"github.com."}
-        {"count":20,"time_first":1575287359,"time_last":1578779559,"rrname":"poele.app.","rrtype":"NS","rdata":"github.com."}
-        {"count":283,"time_first":1575184660,"time_last":1583854822,"rrname":"rzry.xyz.","rrtype":"NS","rdata":"github.com."}
-        {"count":10,"time_first":1576589515,"time_last":1580832687,"rrname":"fdpelletsweb.club.","rrtype":"NS","rdata":"github.com."}
-        {"count":39,"time_first":1580059442,"time_last":1584388947,"rrname":"sonihetvi.tech.","rrtype":"NS","rdata":"github.com."}
-        {"count":2,"time_first":1576890721,"time_last":1576890721,"rrname":"brinascode.tech.","rrtype":"NS","rdata":"github.com."}
-        {"count":364,"time_first":1575165879,"time_last":1584557356,"rrname":"xn--e1aa7afb4a.xn--p1ai.","rrtype":"NS","rdata":"github.com."}
-        {"count":23,"time_first":1579590490,"time_last":1582022689,"rrname":"50d.cn.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1577575042,"time_last":1577575042,"rrname":"m.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1577594328,"time_last":1577594328,"rrname":"0ef.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1577594326,"time_last":1577594326,"rrname":"0m1.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":3,"time_first":1577594325,"time_last":1577594326,"rrname":"1v4.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1577594325,"time_last":1577594325,"rrname":"2j2.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1577594325,"time_last":1577594325,"rrname":"www.2x8.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1577594325,"time_last":1577594325,"rrname":"4q0.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1578441063,"time_last":1578441063,"rrname":"5ci.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":14,"time_first":1577611572,"time_last":1577611575,"rrname":"www.68r.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1579669653,"time_last":1579669653,"rrname":"www.6op.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1577594325,"time_last":1577594325,"rrname":"7bf.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1577594328,"time_last":1577594328,"rrname":"www.7nu.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1577594328,"time_last":1577594328,"rrname":"807.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1577594328,"time_last":1577594328,"rrname":"835.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1577594326,"time_last":1577594326,"rrname":"8u0.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":4,"time_first":1577579924,"time_last":1580702279,"rrname":"bbs.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1578441060,"time_last":1578441060,"rrname":"e4b.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":3,"time_first":1577594329,"time_last":1577594329,"rrname":"www.j8n.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1577594326,"time_last":1577594326,"rrname":"m38.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1577594325,"time_last":1577594325,"rrname":"vkm.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":3,"time_first":1580558665,"time_last":1580558665,"rrname":"www.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1579230037,"time_last":1579230037,"rrname":"www.2sgw.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1578382339,"time_last":1578382339,"rrname":"news.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1579808895,"time_last":1579808895,"rrname":"mfbt.news.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1577594330,"time_last":1577594330,"rrname":"email.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1577594330,"time_last":1577594330,"rrname":"huigu.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1577594325,"time_last":1577594325,"rrname":"wenji.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1578441062,"time_last":1578441062,"rrname":"15t8s7.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1577594328,"time_last":1577594328,"rrname":"188262.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1577594326,"time_last":1577594326,"rrname":"5273sc.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1577594327,"time_last":1577594327,"rrname":"52iu40.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1577594331,"time_last":1577594331,"rrname":"614527.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1577594329,"time_last":1577594329,"rrname":"783338.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1577594328,"time_last":1577594328,"rrname":"7g4388.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1577594329,"time_last":1577594329,"rrname":"8077n6.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1577594325,"time_last":1577594325,"rrname":"8479u1.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1577594331,"time_last":1577594331,"rrname":"89je96.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1577594331,"time_last":1577594331,"rrname":"c051pj.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1578441061,"time_last":1578441061,"rrname":"d9e90m.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1579669651,"time_last":1579669651,"rrname":"l4c40q.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1577594327,"time_last":1577594327,"rrname":"o50094.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1577594325,"time_last":1577594325,"rrname":"rencai.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1577594330,"time_last":1577594330,"rrname":"tougao.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1577594329,"time_last":1577594329,"rrname":"v38o89.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":36,"time_first":1575562753,"time_last":1584022077,"rrname":"teachx.cn.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":7,"time_first":1575524672,"time_last":1578223634,"rrname":"www.liekkas.cn.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1584433797,"time_last":1584433797,"rrname":"zooteam.cn.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":4,"time_first":1575611931,"time_last":1579742460,"rrname":"enjoyhub.cn.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":33,"time_first":1575571100,"time_last":1583431044,"rrname":"wanglonghui.cn.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":88,"time_first":1575243165,"time_last":1584375073,"rrname":"cristianmartinez.co.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":10,"time_first":1580296988,"time_last":1583508080,"rrname":"www.herbison.me.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":100,"time_first":1575246678,"time_last":1584531762,"rrname":"ccbet.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":92,"time_first":1575413906,"time_last":1584090247,"rrname":"dnsxo.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":3,"time_first":1580159279,"time_last":1580159279,"rrname":"cup.dnsxo.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":12,"time_first":1579019002,"time_last":1582160153,"rrname":"ns1.dnsxo.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":15,"time_first":1578470508,"time_last":1583976994,"rrname":"ns2.dnsxo.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":15,"time_first":1579798826,"time_last":1582684876,"rrname":"www.dnsxo.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":8,"time_first":1578750214,"time_last":1580166038,"rrname":"www.gaoyc.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":95,"time_first":1575701582,"time_last":1584539763,"rrname":"kcchy.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":58,"time_first":1583947542,"time_last":1584541782,"rrname":"cname.github.com.krtnt.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":6,"time_first":1576672823,"time_last":1580831159,"rrname":"www.reixs.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":14,"time_first":1576297890,"time_last":1583644565,"rrname":"www.tfgit.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":16,"time_first":1578408204,"time_last":1584109150,"rrname":"www.vowou.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":3,"time_first":1578050354,"time_last":1578050355,"rrname":"www.colnal.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":8351,"time_first":1575350552,"time_last":1584565469,"rrname":"fi.github.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":398707,"time_first":1575138515,"time_last":1584567465,"rrname":"www.github.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":10648,"time_first":1575146544,"time_last":1584558482,"rrname":"shop.github.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":10768,"time_first":1575143523,"time_last":1584569685,"rrname":"embed.github.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":8317,"time_first":1576208451,"time_last":1584571048,"rrname":"launch.github.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":8184,"time_first":1575709845,"time_last":1584562228,"rrname":"render.github.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":110,"time_first":1575226365,"time_last":1584185635,"rrname":"hgyang.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":74,"time_first":1575238504,"time_last":1582206679,"rrname":"sdaynx.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":19,"time_first":1575163270,"time_last":1584338042,"rrname":"atlas.taobao.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":86,"time_first":1575251228,"time_last":1584541639,"rrname":"wcoder.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":5,"time_first":1582545578,"time_last":1582545579,"rrname":"www.c8h16o2.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":72,"time_first":1575406895,"time_last":1584089417,"rrname":"dkanada.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1578408826,"time_last":1578408826,"rrname":"www.itern90.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":6,"time_first":1582223591,"time_last":1582437368,"rrname":"2.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1579191618,"time_last":1579191618,"rrname":"1kpopavenue.2.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1578206016,"time_last":1578206016,"rrname":"4.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":4,"time_first":1575878704,"time_last":1583005094,"rrname":"30morgh.4.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":3,"time_first":1578206016,"time_last":1578207175,"rrname":"8.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1583005095,"time_last":1583005095,"rrname":"102.8.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":4,"time_first":1580288156,"time_last":1583875481,"rrname":"secure-iphone-xml.c.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580288158,"time_last":1580288158,"rrname":"flgkhjyitqmnsecure-iphone-xml.c.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580290230,"time_last":1580290230,"rrname":"e.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580290230,"time_last":1580290230,"rrname":"localhost.e.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1577423332,"time_last":1577423332,"rrname":"avatars.s.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580291199,"time_last":1580291199,"rrname":"v.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1579630472,"time_last":1579630472,"rrname":"3g.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1577424297,"time_last":1577424297,"rrname":"bt.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580291199,"time_last":1580291199,"rrname":"gw.calif-b.cs.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580290232,"time_last":1580290232,"rrname":"flgkhjyitqmngw.calif-b.cs.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":3,"time_first":1580290227,"time_last":1580290230,"rrname":"icinga1.oregon-a.cs.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580290230,"time_last":1580290230,"rrname":"errbit1.oregon-b.cs.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580290230,"time_last":1580290230,"rrname":"app1.virginia-b.cs.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580290228,"time_last":1580290228,"rrname":"app3.virginia-b.cs.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580291199,"time_last":1580291199,"rrname":"app9.virginia-b.cs.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":3,"time_first":1580290991,"time_last":1580291199,"rrname":"app11.virginia-b.cs.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":3,"time_first":1580290227,"time_last":1580290228,"rrname":"app13.virginia-b.cs.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580290228,"time_last":1580290228,"rrname":"app17.virginia-b.cs.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":3,"time_first":1580290227,"time_last":1580291199,"rrname":"app19.virginia-b.cs.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580290228,"time_last":1580290228,"rrname":"icinga1.virginia-b.cs.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580290233,"time_last":1580290233,"rrname":"flgkhjyitqmnsplunk1.virginia-b.cs.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580290235,"time_last":1580290235,"rrname":"icinga1dlfkgjnvpeir.virginia-b.cs.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580290237,"time_last":1580290237,"rrname":"splunk1dlfkgjnvpeir.virginia-b.cs.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":4,"time_first":1576938767,"time_last":1583875480,"rrname":"nyc3.us-east-1-deposit.cs.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1581480999,"time_last":1581480999,"rrname":"db.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1578162795,"time_last":1578162795,"rrname":"dk.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1579630753,"time_last":1579630753,"rrname":"ec.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580290228,"time_last":1580290228,"rrname":"fr.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1578158416,"time_last":1578158416,"rrname":"hi.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":3,"time_first":1576938594,"time_last":1576955873,"rrname":"iphone-xml.c.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580288159,"time_last":1580288159,"rrname":"flgkhjyitqmniphone-xml.c.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":4,"time_first":1576955911,"time_last":1583875480,"rrname":"www.matchhistory.ru.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":6,"time_first":1580288155,"time_last":1583875480,"rrname":"harvest.api.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":4,"time_first":1576938559,"time_last":1583875480,"rrname":"nagios-ams4.api.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580288162,"time_last":1580288162,"rrname":"harvestdlfkgjnvpeir.api.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":6,"time_first":1576955868,"time_last":1583875482,"rrname":"alphaone.eap.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":4,"time_first":1580288063,"time_last":1583875482,"rrname":"amsb.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":4,"time_first":1580288069,"time_last":1583875483,"rrname":"wings-partner.test.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":4,"time_first":1576939298,"time_last":1580288068,"rrname":"cdn7.public.tube8.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":5,"time_first":1580288063,"time_last":1583875481,"rrname":"api.ebayqe.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580288158,"time_last":1580288158,"rrname":"flgkhjyitqmnapi.ebayqe.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":4,"time_first":1579562906,"time_last":1583875482,"rrname":"htgapp.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":6,"time_first":1576955898,"time_last":1583875483,"rrname":"public-sip0.dev-us1.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":4,"time_first":1576939280,"time_last":1583875480,"rrname":"ws-feed-public.sandbox.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":5,"time_first":1576938709,"time_last":1583875481,"rrname":"partners.business.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1583875482,"time_last":1583875482,"rrname":"ci-public.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":3,"time_first":1580288064,"time_last":1580288064,"rrname":"cleveland.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":3,"time_first":1583875480,"time_last":1583875482,"rrname":"epartners.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580288156,"time_last":1580288156,"rrname":"idp.itspublic.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":4,"time_first":1576938611,"time_last":1583875481,"rrname":"sso.itspublic.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580288067,"time_last":1580288067,"rrname":"slack.itspublic.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1583875480,"time_last":1583875480,"rrname":"google.itspublic.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580288069,"time_last":1580288069,"rrname":"workforce.itspublic.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":4,"time_first":1580288063,"time_last":1580291199,"rrname":"activesync.itspublic.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580288161,"time_last":1580288161,"rrname":"ssodlfkgjnvpeir.itspublic.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580288158,"time_last":1580288158,"rrname":"flgkhjyitqmngoogle.itspublic.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":4,"time_first":1576939279,"time_last":1580288156,"rrname":"partners2.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580291199,"time_last":1580291199,"rrname":"alexandria.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":3,"time_first":1583875480,"time_last":1583875481,"rrname":"ci1-public.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1583875483,"time_last":1583875483,"rrname":"htgapp-chi.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1583875481,"time_last":1583875481,"rrname":"dcl2-dfw.htgapp-dfw.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580288068,"time_last":1580288068,"rrname":"dcl3-par.htgapp-par.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580291199,"time_last":1580291199,"rrname":"iphone-xml.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":5,"time_first":1576939312,"time_last":1583875482,"rrname":"itpartners.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":5,"time_first":1580288155,"time_last":1583875481,"rrname":"thumbnails.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":4,"time_first":1576938825,"time_last":1580288155,"rrname":"api-partner.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580288067,"time_last":1580288067,"rrname":"africaonline.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":3,"time_first":1583875480,"time_last":1583875482,"rrname":"partnerfeeds.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":4,"time_first":1576939339,"time_last":1583875480,"rrname":"porn-remover.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":4,"time_first":1580288063,"time_last":1583875480,"rrname":"docs.touch-iphone.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580288161,"time_last":1580288161,"rrname":"docsdlfkgjnvpeir.touch-iphone.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580291199,"time_last":1580291199,"rrname":"ns2-epartners.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":3,"time_first":1583875481,"time_last":1583875482,"rrname":"slotmatching2.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":3,"time_first":1583875481,"time_last":1583875481,"rrname":"slotmatching9.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":4,"time_first":1576938590,"time_last":1580288064,"rrname":"trade-finance.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1583875480,"time_last":1583875480,"rrname":"wickynilliams.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":4,"time_first":1576955901,"time_last":1583875480,"rrname":"bet365wangzhan.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580288156,"time_last":1580288156,"rrname":"slotmatching15.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":4,"time_first":1580288068,"time_last":1583875480,"rrname":"ws-feed-public.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":4,"time_first":1576939330,"time_last":1583875481,"rrname":"secure-iphone-xml.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":7,"time_first":1576938829,"time_last":1583875481,"rrname":"enterprise-bundles.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580288158,"time_last":1580288158,"rrname":"flgkhjyitqmnremover.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":4,"time_first":1576955899,"time_last":1583875481,"rrname":"public-vip374d1ca4e.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580288158,"time_last":1580288158,"rrname":"flgkhjyitqmnmovement.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580288158,"time_last":1580288158,"rrname":"flgkhjyitqmnci-public.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580288159,"time_last":1580288159,"rrname":"flgkhjyitqmnepartners.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580288161,"time_last":1580288161,"rrname":"ci1-publicdlfkgjnvpeir.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580288158,"time_last":1580288158,"rrname":"flgkhjyitqmnalexandria.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580288158,"time_last":1580288158,"rrname":"flgkhjyitqmniphone-xml.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580288159,"time_last":1580288159,"rrname":"flgkhjyitqmnthumbnails.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":4,"time_first":1580288067,"time_last":1583875482,"rrname":"paypal-partner-pdc-vip.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580288159,"time_last":1580288159,"rrname":"flgkhjyitqmnwickynilliams.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580288163,"time_last":1580288163,"rrname":"slotmatching9dlfkgjnvpeir.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580288163,"time_last":1580288163,"rrname":"thomasmuellerdlfkgjnvpeir.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580288162,"time_last":1580288162,"rrname":"bet365wangzhandlfkgjnvpeir.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580288159,"time_last":1580288159,"rrname":"flgkhjyitqmnws-feed-public.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580288163,"time_last":1580288163,"rrname":"ws-feed-publicdlfkgjnvpeir.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580288161,"time_last":1580288161,"rrname":"public-vip374d1ca4edlfkgjnvpeir.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580288161,"time_last":1580288161,"rrname":"staging-partnertoolsdlfkgjnvpeir.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":4,"time_first":1576955886,"time_last":1580288155,"rrname":"edge-block-previews-video-live-ams.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580288161,"time_last":1580288161,"rrname":"edge-block-previews-video-live-amsdlfkgjnvpeir.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580290230,"time_last":1580290230,"rrname":"it.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":4,"time_first":1578162286,"time_last":1580291199,"rrname":"la.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1578160895,"time_last":1578160895,"rrname":"shops.my.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1578161448,"time_last":1578161448,"rrname":"blenderbottle.my.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":8,"time_first":1576938576,"time_last":1583875482,"rrname":"ez-screen-e910caa.my.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1584221840,"time_last":1584221840,"rrname":"mail.o1.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1584220915,"time_last":1584220915,"rrname":"mail.o3.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":4,"time_first":1577671375,"time_last":1580288875,"rrname":"triage.pr.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580290227,"time_last":1580290227,"rrname":"pt.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580290228,"time_last":1580290228,"rrname":"qr.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580290233,"time_last":1580290233,"rrname":"flgkhjyitqmnutil1.calif-a.rb.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580291199,"time_last":1580291199,"rrname":"app1.virginia-a.rb.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":3,"time_first":1580290227,"time_last":1580291199,"rrname":"splunk1.virginia-a.rb.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580290227,"time_last":1580290227,"rrname":"ux.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1578162879,"time_last":1578162879,"rrname":"api.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1578163240,"time_last":1578163240,"rrname":"app.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1578162383,"time_last":1578162383,"rrname":"arb.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1584210554,"time_last":1584210554,"rrname":"dns.ash.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1579630459,"time_last":1579630459,"rrname":"100.nat.ash.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1579630813,"time_last":1579630813,"rrname":"lb-perf3.ash.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580290227,"time_last":1580290227,"rrname":"bcs.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1579365233,"time_last":1579365233,"rrname":"bkp.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1578159199,"time_last":1578159199,"rrname":"cdn.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":3,"time_first":1580289766,"time_last":1580290227,"rrname":"cla.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1578903954,"time_last":1578903954,"rrname":"csc.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1578163525,"time_last":1578163525,"rrname":"csp.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580194908,"time_last":1580194908,"rrname":"dev.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":6,"time_first":1577752444,"time_last":1582200914,"rrname":"pr.dev.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580290229,"time_last":1580290229,"rrname":"gem-proxy.ec2.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":3,"time_first":1580290228,"time_last":1580290229,"rrname":"registry1.ec2.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580290229,"time_last":1580290229,"rrname":"registry2.ec2.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580290228,"time_last":1580290228,"rrname":"datagrip-ls.ec2.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":5,"time_first":1578160271,"time_last":1580290227,"rrname":"forums-app1.ec2.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580290227,"time_last":1580290227,"rrname":"heroku-stats1.ec2.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":3,"time_first":1580290227,"time_last":1580290229,"rrname":"locutus-coordinator1.ec2.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580290232,"time_last":1580290232,"rrname":"flgkhjyitqmnforums-app1.ec2.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580290232,"time_last":1580290232,"rrname":"flgkhjyitqmnlocutus-coordinator1.ec2.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1578160135,"time_last":1578160135,"rrname":"ec3.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":7,"time_first":1576955874,"time_last":1583875482,"rrname":"mx01.ams1.slr.mx.git.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":3,"time_first":1580288063,"time_last":1580288068,"rrname":"nagios-ams4.api.git.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580288161,"time_last":1580288161,"rrname":"nagios-ams4dlfkgjnvpeir.api.git.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1576939273,"time_last":1576939273,"rrname":"amadeus-canary1.itd.git.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580288158,"time_last":1580288158,"rrname":"flgkhjyitqmnamadeus-canary1.itd.git.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":3,"time_first":1583875480,"time_last":1583875481,"rrname":"kwzd2k3ondlhdk2vg3li2zmqpyo6ad5scjnunrz.bwlln5hofsiuxwov.er.resch.git.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":6,"time_first":1580288155,"time_last":1583875481,"rrname":"edge-block-previews-video-live-ams.g1.resch.git.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1583875480,"time_last":1583875480,"rrname":"public-vip374d1ca4e.dev.resch.git.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":5,"time_first":1576939355,"time_last":1583875483,"rrname":"staging-partnertools.nrd.resch.git.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580288158,"time_last":1580288158,"rrname":"flgkhjyitqmnstaging-partnertools.nrd.resch.git.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":8,"time_first":1576938846,"time_last":1583875482,"rrname":"cr1.ams1.resch.git.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":3,"time_first":1580288161,"time_last":1580288162,"rrname":"cr1dlfkgjnvpeir.ams1.resch.git.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1580288159,"time_last":1580288159,"rrname":"flgkhjyitqmncr1.ams1.resch.git.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":6,"time_first":1576955886,"time_last":1583875481,"rrname":"ams4.resch.git.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1583875480,"time_last":1583875480,"rrname":"ns2-epartners.corp.resch.git.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1576955889,"time_last":1576955889,"rrname":"32.finance.eldo.resch.git.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":4,"time_first":1576955909,"time_last":1580288063,"rrname":"nflx.ic.8945753a.07eab7.x.529.na.llnw.resch.git.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1583875480,"time_last":1583875480,"rrname":"ppdams.resch.git.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":3,"time_first":1583875480,"time_last":1583875482,"rrname":"amadeus.resch.git.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":5,"time_first":1580288063,"time_last":1583875483,"rrname":"ams-v48.resch.git.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":4,"time_first":1576939332,"time_last":1583875481,"rrname":"alexaflixdemo.us-east-1.dyntest.resch.git.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":3,"time_first":1576938848,"time_last":1576955889,"rrname":"www.bnickles.resch.git.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":4,"time_first":1576939023,"time_last":1583875482,"rrname":"partners.business.resch.git.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":2,"time_first":1583875480,"time_last":1583875480,"rrname":"partners.resch.git.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-        {"count":5,"time_first":1576939325,"time_last":1583875482,"rrname":"api.partners.resch.git.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
-    http_version: null
-  recorded_at: Thu, 19 Mar 2020 22:56:23 GMT
+  - request:
+      method: get
+      uri: https://api.dnsdb.info/lookup/rdata/name/github.com
+      body:
+        encoding: US-ASCII
+        string: ""
+      headers:
+        Accept-Encoding:
+          - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+        Accept:
+          - application/json
+        User-Agent:
+          - Ruby
+        Host:
+          - api.dnsdb.info
+        X-Api-Key:
+          - "<CENSORED>"
+    response:
+      status:
+        code: 200
+        message: OK
+      headers:
+        Server:
+          - nginx/1.10.3
+        Date:
+          - Thu, 19 Mar 2020 22:56:23 GMT
+        Content-Type:
+          - application/json
+        Transfer-Encoding:
+          - chunked
+        Connection:
+          - keep-alive
+        Vary:
+          - Accept-Encoding
+        X-Ratelimit-Limit:
+          - "500"
+        X-Ratelimit-Remaining:
+          - "476"
+        X-Ratelimit-Reset:
+          - n/a
+        X-Ratelimit-Expires:
+          - "1587230628"
+        Access-Control-Allow-Origin:
+          - "*"
+        Access-Control-Expose-Headers:
+          - X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-RateLimit-Expires
+        Access-Control-Max-Age:
+          - "86400"
+        Access-Control-Allow-Credentials:
+          - "true"
+        Access-Control-Allow-Methods:
+          - GET, POST
+        Access-Control-Allow-Headers:
+          - Accept, Cache-Control, Pragma, Origin, Authorization, Cookie, Content-Type,
+            X-API-Key
+        Strict-Transport-Security:
+          - max-age=15768000
+        Expires:
+          - "-1"
+        Cache-Control:
+          - private, max-age=0
+      body:
+        encoding: ASCII-8BIT
+        string: |
+          {"count":294,"time_first":1582569419,"time_last":1584556391,"rrname":"iscoot.ru.","rrtype":"NS","rdata":"github.com."}
+          {"count":442,"time_first":1575140335,"time_last":1584557932,"rrname":"sutangu.ru.","rrtype":"NS","rdata":"github.com."}
+          {"count":20,"time_first":1575287359,"time_last":1578779559,"rrname":"poele.app.","rrtype":"NS","rdata":"github.com."}
+          {"count":283,"time_first":1575184660,"time_last":1583854822,"rrname":"rzry.xyz.","rrtype":"NS","rdata":"github.com."}
+          {"count":10,"time_first":1576589515,"time_last":1580832687,"rrname":"fdpelletsweb.club.","rrtype":"NS","rdata":"github.com."}
+          {"count":39,"time_first":1580059442,"time_last":1584388947,"rrname":"sonihetvi.tech.","rrtype":"NS","rdata":"github.com."}
+          {"count":2,"time_first":1576890721,"time_last":1576890721,"rrname":"brinascode.tech.","rrtype":"NS","rdata":"github.com."}
+          {"count":364,"time_first":1575165879,"time_last":1584557356,"rrname":"xn--e1aa7afb4a.xn--p1ai.","rrtype":"NS","rdata":"github.com."}
+          {"count":23,"time_first":1579590490,"time_last":1582022689,"rrname":"50d.cn.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1577575042,"time_last":1577575042,"rrname":"m.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1577594328,"time_last":1577594328,"rrname":"0ef.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1577594326,"time_last":1577594326,"rrname":"0m1.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":3,"time_first":1577594325,"time_last":1577594326,"rrname":"1v4.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1577594325,"time_last":1577594325,"rrname":"2j2.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1577594325,"time_last":1577594325,"rrname":"www.2x8.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1577594325,"time_last":1577594325,"rrname":"4q0.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1578441063,"time_last":1578441063,"rrname":"5ci.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":14,"time_first":1577611572,"time_last":1577611575,"rrname":"www.68r.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1579669653,"time_last":1579669653,"rrname":"www.6op.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1577594325,"time_last":1577594325,"rrname":"7bf.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1577594328,"time_last":1577594328,"rrname":"www.7nu.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1577594328,"time_last":1577594328,"rrname":"807.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1577594328,"time_last":1577594328,"rrname":"835.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1577594326,"time_last":1577594326,"rrname":"8u0.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":4,"time_first":1577579924,"time_last":1580702279,"rrname":"bbs.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1578441060,"time_last":1578441060,"rrname":"e4b.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":3,"time_first":1577594329,"time_last":1577594329,"rrname":"www.j8n.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1577594326,"time_last":1577594326,"rrname":"m38.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1577594325,"time_last":1577594325,"rrname":"vkm.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":3,"time_first":1580558665,"time_last":1580558665,"rrname":"www.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1579230037,"time_last":1579230037,"rrname":"www.2sgw.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1578382339,"time_last":1578382339,"rrname":"news.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1579808895,"time_last":1579808895,"rrname":"mfbt.news.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1577594330,"time_last":1577594330,"rrname":"email.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1577594330,"time_last":1577594330,"rrname":"huigu.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1577594325,"time_last":1577594325,"rrname":"wenji.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1578441062,"time_last":1578441062,"rrname":"15t8s7.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1577594328,"time_last":1577594328,"rrname":"188262.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1577594326,"time_last":1577594326,"rrname":"5273sc.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1577594327,"time_last":1577594327,"rrname":"52iu40.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1577594331,"time_last":1577594331,"rrname":"614527.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1577594329,"time_last":1577594329,"rrname":"783338.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1577594328,"time_last":1577594328,"rrname":"7g4388.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1577594329,"time_last":1577594329,"rrname":"8077n6.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1577594325,"time_last":1577594325,"rrname":"8479u1.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1577594331,"time_last":1577594331,"rrname":"89je96.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1577594331,"time_last":1577594331,"rrname":"c051pj.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1578441061,"time_last":1578441061,"rrname":"d9e90m.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1579669651,"time_last":1579669651,"rrname":"l4c40q.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1577594327,"time_last":1577594327,"rrname":"o50094.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1577594325,"time_last":1577594325,"rrname":"rencai.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1577594330,"time_last":1577594330,"rrname":"tougao.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1577594329,"time_last":1577594329,"rrname":"v38o89.beatx.cn.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":36,"time_first":1575562753,"time_last":1584022077,"rrname":"teachx.cn.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":7,"time_first":1575524672,"time_last":1578223634,"rrname":"www.liekkas.cn.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1584433797,"time_last":1584433797,"rrname":"zooteam.cn.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":4,"time_first":1575611931,"time_last":1579742460,"rrname":"enjoyhub.cn.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":33,"time_first":1575571100,"time_last":1583431044,"rrname":"wanglonghui.cn.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":88,"time_first":1575243165,"time_last":1584375073,"rrname":"cristianmartinez.co.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":10,"time_first":1580296988,"time_last":1583508080,"rrname":"www.herbison.me.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":100,"time_first":1575246678,"time_last":1584531762,"rrname":"ccbet.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":92,"time_first":1575413906,"time_last":1584090247,"rrname":"dnsxo.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":3,"time_first":1580159279,"time_last":1580159279,"rrname":"cup.dnsxo.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":12,"time_first":1579019002,"time_last":1582160153,"rrname":"ns1.dnsxo.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":15,"time_first":1578470508,"time_last":1583976994,"rrname":"ns2.dnsxo.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":15,"time_first":1579798826,"time_last":1582684876,"rrname":"www.dnsxo.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":8,"time_first":1578750214,"time_last":1580166038,"rrname":"www.gaoyc.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":95,"time_first":1575701582,"time_last":1584539763,"rrname":"kcchy.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":58,"time_first":1583947542,"time_last":1584541782,"rrname":"cname.github.com.krtnt.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":6,"time_first":1576672823,"time_last":1580831159,"rrname":"www.reixs.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":14,"time_first":1576297890,"time_last":1583644565,"rrname":"www.tfgit.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":16,"time_first":1578408204,"time_last":1584109150,"rrname":"www.vowou.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":3,"time_first":1578050354,"time_last":1578050355,"rrname":"www.colnal.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":8351,"time_first":1575350552,"time_last":1584565469,"rrname":"fi.github.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":398707,"time_first":1575138515,"time_last":1584567465,"rrname":"www.github.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":10648,"time_first":1575146544,"time_last":1584558482,"rrname":"shop.github.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":10768,"time_first":1575143523,"time_last":1584569685,"rrname":"embed.github.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":8317,"time_first":1576208451,"time_last":1584571048,"rrname":"launch.github.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":8184,"time_first":1575709845,"time_last":1584562228,"rrname":"render.github.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":110,"time_first":1575226365,"time_last":1584185635,"rrname":"hgyang.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":74,"time_first":1575238504,"time_last":1582206679,"rrname":"sdaynx.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":19,"time_first":1575163270,"time_last":1584338042,"rrname":"atlas.taobao.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":86,"time_first":1575251228,"time_last":1584541639,"rrname":"wcoder.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":5,"time_first":1582545578,"time_last":1582545579,"rrname":"www.c8h16o2.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":72,"time_first":1575406895,"time_last":1584089417,"rrname":"dkanada.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1578408826,"time_last":1578408826,"rrname":"www.itern90.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":6,"time_first":1582223591,"time_last":1582437368,"rrname":"2.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1579191618,"time_last":1579191618,"rrname":"1kpopavenue.2.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1578206016,"time_last":1578206016,"rrname":"4.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":4,"time_first":1575878704,"time_last":1583005094,"rrname":"30morgh.4.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":3,"time_first":1578206016,"time_last":1578207175,"rrname":"8.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1583005095,"time_last":1583005095,"rrname":"102.8.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":4,"time_first":1580288156,"time_last":1583875481,"rrname":"secure-iphone-xml.c.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580288158,"time_last":1580288158,"rrname":"flgkhjyitqmnsecure-iphone-xml.c.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580290230,"time_last":1580290230,"rrname":"e.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580290230,"time_last":1580290230,"rrname":"localhost.e.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1577423332,"time_last":1577423332,"rrname":"avatars.s.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580291199,"time_last":1580291199,"rrname":"v.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1579630472,"time_last":1579630472,"rrname":"3g.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1577424297,"time_last":1577424297,"rrname":"bt.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580291199,"time_last":1580291199,"rrname":"gw.calif-b.cs.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580290232,"time_last":1580290232,"rrname":"flgkhjyitqmngw.calif-b.cs.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":3,"time_first":1580290227,"time_last":1580290230,"rrname":"icinga1.oregon-a.cs.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580290230,"time_last":1580290230,"rrname":"errbit1.oregon-b.cs.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580290230,"time_last":1580290230,"rrname":"app1.virginia-b.cs.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580290228,"time_last":1580290228,"rrname":"app3.virginia-b.cs.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580291199,"time_last":1580291199,"rrname":"app9.virginia-b.cs.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":3,"time_first":1580290991,"time_last":1580291199,"rrname":"app11.virginia-b.cs.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":3,"time_first":1580290227,"time_last":1580290228,"rrname":"app13.virginia-b.cs.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580290228,"time_last":1580290228,"rrname":"app17.virginia-b.cs.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":3,"time_first":1580290227,"time_last":1580291199,"rrname":"app19.virginia-b.cs.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580290228,"time_last":1580290228,"rrname":"icinga1.virginia-b.cs.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580290233,"time_last":1580290233,"rrname":"flgkhjyitqmnsplunk1.virginia-b.cs.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580290235,"time_last":1580290235,"rrname":"icinga1dlfkgjnvpeir.virginia-b.cs.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580290237,"time_last":1580290237,"rrname":"splunk1dlfkgjnvpeir.virginia-b.cs.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":4,"time_first":1576938767,"time_last":1583875480,"rrname":"nyc3.us-east-1-deposit.cs.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1581480999,"time_last":1581480999,"rrname":"db.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1578162795,"time_last":1578162795,"rrname":"dk.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1579630753,"time_last":1579630753,"rrname":"ec.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580290228,"time_last":1580290228,"rrname":"fr.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1578158416,"time_last":1578158416,"rrname":"hi.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":3,"time_first":1576938594,"time_last":1576955873,"rrname":"iphone-xml.c.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580288159,"time_last":1580288159,"rrname":"flgkhjyitqmniphone-xml.c.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":4,"time_first":1576955911,"time_last":1583875480,"rrname":"www.matchhistory.ru.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":6,"time_first":1580288155,"time_last":1583875480,"rrname":"harvest.api.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":4,"time_first":1576938559,"time_last":1583875480,"rrname":"nagios-ams4.api.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580288162,"time_last":1580288162,"rrname":"harvestdlfkgjnvpeir.api.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":6,"time_first":1576955868,"time_last":1583875482,"rrname":"alphaone.eap.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":4,"time_first":1580288063,"time_last":1583875482,"rrname":"amsb.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":4,"time_first":1580288069,"time_last":1583875483,"rrname":"wings-partner.test.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":4,"time_first":1576939298,"time_last":1580288068,"rrname":"cdn7.public.tube8.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":5,"time_first":1580288063,"time_last":1583875481,"rrname":"api.ebayqe.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580288158,"time_last":1580288158,"rrname":"flgkhjyitqmnapi.ebayqe.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":4,"time_first":1579562906,"time_last":1583875482,"rrname":"htgapp.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":6,"time_first":1576955898,"time_last":1583875483,"rrname":"public-sip0.dev-us1.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":4,"time_first":1576939280,"time_last":1583875480,"rrname":"ws-feed-public.sandbox.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":5,"time_first":1576938709,"time_last":1583875481,"rrname":"partners.business.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1583875482,"time_last":1583875482,"rrname":"ci-public.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":3,"time_first":1580288064,"time_last":1580288064,"rrname":"cleveland.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":3,"time_first":1583875480,"time_last":1583875482,"rrname":"epartners.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580288156,"time_last":1580288156,"rrname":"idp.itspublic.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":4,"time_first":1576938611,"time_last":1583875481,"rrname":"sso.itspublic.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580288067,"time_last":1580288067,"rrname":"slack.itspublic.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1583875480,"time_last":1583875480,"rrname":"google.itspublic.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580288069,"time_last":1580288069,"rrname":"workforce.itspublic.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":4,"time_first":1580288063,"time_last":1580291199,"rrname":"activesync.itspublic.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580288161,"time_last":1580288161,"rrname":"ssodlfkgjnvpeir.itspublic.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580288158,"time_last":1580288158,"rrname":"flgkhjyitqmngoogle.itspublic.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":4,"time_first":1576939279,"time_last":1580288156,"rrname":"partners2.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580291199,"time_last":1580291199,"rrname":"alexandria.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":3,"time_first":1583875480,"time_last":1583875481,"rrname":"ci1-public.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1583875483,"time_last":1583875483,"rrname":"htgapp-chi.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1583875481,"time_last":1583875481,"rrname":"dcl2-dfw.htgapp-dfw.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580288068,"time_last":1580288068,"rrname":"dcl3-par.htgapp-par.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580291199,"time_last":1580291199,"rrname":"iphone-xml.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":5,"time_first":1576939312,"time_last":1583875482,"rrname":"itpartners.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":5,"time_first":1580288155,"time_last":1583875481,"rrname":"thumbnails.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":4,"time_first":1576938825,"time_last":1580288155,"rrname":"api-partner.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580288067,"time_last":1580288067,"rrname":"africaonline.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":3,"time_first":1583875480,"time_last":1583875482,"rrname":"partnerfeeds.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":4,"time_first":1576939339,"time_last":1583875480,"rrname":"porn-remover.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":4,"time_first":1580288063,"time_last":1583875480,"rrname":"docs.touch-iphone.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580288161,"time_last":1580288161,"rrname":"docsdlfkgjnvpeir.touch-iphone.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580291199,"time_last":1580291199,"rrname":"ns2-epartners.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":3,"time_first":1583875481,"time_last":1583875482,"rrname":"slotmatching2.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":3,"time_first":1583875481,"time_last":1583875481,"rrname":"slotmatching9.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":4,"time_first":1576938590,"time_last":1580288064,"rrname":"trade-finance.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1583875480,"time_last":1583875480,"rrname":"wickynilliams.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":4,"time_first":1576955901,"time_last":1583875480,"rrname":"bet365wangzhan.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580288156,"time_last":1580288156,"rrname":"slotmatching15.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":4,"time_first":1580288068,"time_last":1583875480,"rrname":"ws-feed-public.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":4,"time_first":1576939330,"time_last":1583875481,"rrname":"secure-iphone-xml.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":7,"time_first":1576938829,"time_last":1583875481,"rrname":"enterprise-bundles.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580288158,"time_last":1580288158,"rrname":"flgkhjyitqmnremover.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":4,"time_first":1576955899,"time_last":1583875481,"rrname":"public-vip374d1ca4e.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580288158,"time_last":1580288158,"rrname":"flgkhjyitqmnmovement.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580288158,"time_last":1580288158,"rrname":"flgkhjyitqmnci-public.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580288159,"time_last":1580288159,"rrname":"flgkhjyitqmnepartners.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580288161,"time_last":1580288161,"rrname":"ci1-publicdlfkgjnvpeir.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580288158,"time_last":1580288158,"rrname":"flgkhjyitqmnalexandria.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580288158,"time_last":1580288158,"rrname":"flgkhjyitqmniphone-xml.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580288159,"time_last":1580288159,"rrname":"flgkhjyitqmnthumbnails.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":4,"time_first":1580288067,"time_last":1583875482,"rrname":"paypal-partner-pdc-vip.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580288159,"time_last":1580288159,"rrname":"flgkhjyitqmnwickynilliams.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580288163,"time_last":1580288163,"rrname":"slotmatching9dlfkgjnvpeir.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580288163,"time_last":1580288163,"rrname":"thomasmuellerdlfkgjnvpeir.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580288162,"time_last":1580288162,"rrname":"bet365wangzhandlfkgjnvpeir.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580288159,"time_last":1580288159,"rrname":"flgkhjyitqmnws-feed-public.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580288163,"time_last":1580288163,"rrname":"ws-feed-publicdlfkgjnvpeir.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580288161,"time_last":1580288161,"rrname":"public-vip374d1ca4edlfkgjnvpeir.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580288161,"time_last":1580288161,"rrname":"staging-partnertoolsdlfkgjnvpeir.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":4,"time_first":1576955886,"time_last":1580288155,"rrname":"edge-block-previews-video-live-ams.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580288161,"time_last":1580288161,"rrname":"edge-block-previews-video-live-amsdlfkgjnvpeir.io.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580290230,"time_last":1580290230,"rrname":"it.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":4,"time_first":1578162286,"time_last":1580291199,"rrname":"la.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1578160895,"time_last":1578160895,"rrname":"shops.my.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1578161448,"time_last":1578161448,"rrname":"blenderbottle.my.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":8,"time_first":1576938576,"time_last":1583875482,"rrname":"ez-screen-e910caa.my.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1584221840,"time_last":1584221840,"rrname":"mail.o1.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1584220915,"time_last":1584220915,"rrname":"mail.o3.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":4,"time_first":1577671375,"time_last":1580288875,"rrname":"triage.pr.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580290227,"time_last":1580290227,"rrname":"pt.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580290228,"time_last":1580290228,"rrname":"qr.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580290233,"time_last":1580290233,"rrname":"flgkhjyitqmnutil1.calif-a.rb.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580291199,"time_last":1580291199,"rrname":"app1.virginia-a.rb.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":3,"time_first":1580290227,"time_last":1580291199,"rrname":"splunk1.virginia-a.rb.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580290227,"time_last":1580290227,"rrname":"ux.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1578162879,"time_last":1578162879,"rrname":"api.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1578163240,"time_last":1578163240,"rrname":"app.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1578162383,"time_last":1578162383,"rrname":"arb.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1584210554,"time_last":1584210554,"rrname":"dns.ash.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1579630459,"time_last":1579630459,"rrname":"100.nat.ash.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1579630813,"time_last":1579630813,"rrname":"lb-perf3.ash.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580290227,"time_last":1580290227,"rrname":"bcs.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1579365233,"time_last":1579365233,"rrname":"bkp.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1578159199,"time_last":1578159199,"rrname":"cdn.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":3,"time_first":1580289766,"time_last":1580290227,"rrname":"cla.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1578903954,"time_last":1578903954,"rrname":"csc.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1578163525,"time_last":1578163525,"rrname":"csp.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580194908,"time_last":1580194908,"rrname":"dev.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":6,"time_first":1577752444,"time_last":1582200914,"rrname":"pr.dev.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580290229,"time_last":1580290229,"rrname":"gem-proxy.ec2.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":3,"time_first":1580290228,"time_last":1580290229,"rrname":"registry1.ec2.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580290229,"time_last":1580290229,"rrname":"registry2.ec2.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580290228,"time_last":1580290228,"rrname":"datagrip-ls.ec2.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":5,"time_first":1578160271,"time_last":1580290227,"rrname":"forums-app1.ec2.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580290227,"time_last":1580290227,"rrname":"heroku-stats1.ec2.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":3,"time_first":1580290227,"time_last":1580290229,"rrname":"locutus-coordinator1.ec2.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580290232,"time_last":1580290232,"rrname":"flgkhjyitqmnforums-app1.ec2.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580290232,"time_last":1580290232,"rrname":"flgkhjyitqmnlocutus-coordinator1.ec2.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1578160135,"time_last":1578160135,"rrname":"ec3.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":7,"time_first":1576955874,"time_last":1583875482,"rrname":"mx01.ams1.slr.mx.git.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":3,"time_first":1580288063,"time_last":1580288068,"rrname":"nagios-ams4.api.git.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580288161,"time_last":1580288161,"rrname":"nagios-ams4dlfkgjnvpeir.api.git.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1576939273,"time_last":1576939273,"rrname":"amadeus-canary1.itd.git.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580288158,"time_last":1580288158,"rrname":"flgkhjyitqmnamadeus-canary1.itd.git.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":3,"time_first":1583875480,"time_last":1583875481,"rrname":"kwzd2k3ondlhdk2vg3li2zmqpyo6ad5scjnunrz.bwlln5hofsiuxwov.er.resch.git.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":6,"time_first":1580288155,"time_last":1583875481,"rrname":"edge-block-previews-video-live-ams.g1.resch.git.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1583875480,"time_last":1583875480,"rrname":"public-vip374d1ca4e.dev.resch.git.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":5,"time_first":1576939355,"time_last":1583875483,"rrname":"staging-partnertools.nrd.resch.git.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580288158,"time_last":1580288158,"rrname":"flgkhjyitqmnstaging-partnertools.nrd.resch.git.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":8,"time_first":1576938846,"time_last":1583875482,"rrname":"cr1.ams1.resch.git.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":3,"time_first":1580288161,"time_last":1580288162,"rrname":"cr1dlfkgjnvpeir.ams1.resch.git.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1580288159,"time_last":1580288159,"rrname":"flgkhjyitqmncr1.ams1.resch.git.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":6,"time_first":1576955886,"time_last":1583875481,"rrname":"ams4.resch.git.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1583875480,"time_last":1583875480,"rrname":"ns2-epartners.corp.resch.git.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1576955889,"time_last":1576955889,"rrname":"32.finance.eldo.resch.git.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":4,"time_first":1576955909,"time_last":1580288063,"rrname":"nflx.ic.8945753a.07eab7.x.529.na.llnw.resch.git.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1583875480,"time_last":1583875480,"rrname":"ppdams.resch.git.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":3,"time_first":1583875480,"time_last":1583875482,"rrname":"amadeus.resch.git.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":5,"time_first":1580288063,"time_last":1583875483,"rrname":"ams-v48.resch.git.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":4,"time_first":1576939332,"time_last":1583875481,"rrname":"alexaflixdemo.us-east-1.dyntest.resch.git.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":3,"time_first":1576938848,"time_last":1576955889,"rrname":"www.bnickles.resch.git.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":4,"time_first":1576939023,"time_last":1583875482,"rrname":"partners.business.resch.git.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":2,"time_first":1583875480,"time_last":1583875480,"rrname":"partners.resch.git.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+          {"count":5,"time_first":1576939325,"time_last":1583875482,"rrname":"api.partners.resch.git.github.shopify.com.","rrtype":"CNAME","rdata":"github.com."}
+      http_version: null
+    recorded_at: Thu, 19 Mar 2020 22:56:23 GMT
 recorded_with: VCR 5.1.0
