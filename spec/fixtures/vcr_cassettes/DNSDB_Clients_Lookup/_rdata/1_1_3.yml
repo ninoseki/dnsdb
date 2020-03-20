@@ -1,91 +1,91 @@
 ---
 http_interactions:
-- request:
-    method: get
-    uri: https://api.dnsdb.info//lookup/rdata/ip/154.9.205.199
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - application/json
-      User-Agent:
-      - Ruby
-      Host:
-      - api.dnsdb.info
-      X-Api-Key:
-      - "<CENSORED>"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Server:
-      - nginx/1.10.3
-      Date:
-      - Thu, 19 Mar 2020 22:59:32 GMT
-      Content-Type:
-      - application/json
-      Transfer-Encoding:
-      - chunked
-      Connection:
-      - keep-alive
-      Vary:
-      - Accept-Encoding
-      X-Ratelimit-Limit:
-      - '500'
-      X-Ratelimit-Remaining:
-      - '475'
-      X-Ratelimit-Reset:
-      - n/a
-      X-Ratelimit-Expires:
-      - '1587230628'
-      Access-Control-Allow-Origin:
-      - "*"
-      Access-Control-Expose-Headers:
-      - X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-RateLimit-Expires
-      Access-Control-Max-Age:
-      - '86400'
-      Access-Control-Allow-Credentials:
-      - 'true'
-      Access-Control-Allow-Methods:
-      - GET, POST
-      Access-Control-Allow-Headers:
-      - Accept, Cache-Control, Pragma, Origin, Authorization, Cookie, Content-Type,
-        X-API-Key
-      Strict-Transport-Security:
-      - max-age=15768000
-      Expires:
-      - "-1"
-      Cache-Control:
-      - private, max-age=0
-    body:
-      encoding: ASCII-8BIT
-      string: |
-        {"count":56,"time_first":1583982411,"time_last":1584018672,"rrname":"jppost-afu.top.","rrtype":"A","rdata":"154.9.205.199"}
-        {"count":12,"time_first":1584463821,"time_last":1584492361,"rrname":"jppost-agi.top.","rrtype":"A","rdata":"154.9.205.199"}
-        {"count":6,"time_first":1584509576,"time_last":1584521235,"rrname":"jppost-ago.top.","rrtype":"A","rdata":"154.9.205.199"}
-        {"count":21,"time_first":1584499570,"time_last":1584521016,"rrname":"jppost-agu.top.","rrtype":"A","rdata":"154.9.205.199"}
-        {"count":27,"time_first":1583902132,"time_last":1583939001,"rrname":"jppost-aha.top.","rrtype":"A","rdata":"154.9.205.199"}
-        {"count":137,"time_first":1583905617,"time_last":1584052286,"rrname":"jppost-aho.top.","rrtype":"A","rdata":"154.9.205.199"}
-        {"count":131,"time_first":1583902113,"time_last":1584052635,"rrname":"jppost-ahu.top.","rrtype":"A","rdata":"154.9.205.199"}
-        {"count":41,"time_first":1584527769,"time_last":1584557867,"rrname":"jppost-aji.top.","rrtype":"A","rdata":"154.9.205.199"}
-        {"count":44,"time_first":1584080802,"time_last":1584146385,"rrname":"jppost-ame.top.","rrtype":"A","rdata":"154.9.205.199"}
-        {"count":31,"time_first":1584002751,"time_last":1584054701,"rrname":"jppost-amu.top.","rrtype":"A","rdata":"154.9.205.199"}
-        {"count":16,"time_first":1583902130,"time_last":1583917613,"rrname":"jppost-ane.top.","rrtype":"A","rdata":"154.9.205.199"}
-        {"count":41,"time_first":1583902131,"time_last":1583938559,"rrname":"jppost-ano.top.","rrtype":"A","rdata":"154.9.205.199"}
-        {"count":12,"time_first":1584297974,"time_last":1584328266,"rrname":"jppost-ara.top.","rrtype":"A","rdata":"154.9.205.199"}
-        {"count":9,"time_first":1584259619,"time_last":1584276694,"rrname":"jppost-are.top.","rrtype":"A","rdata":"154.9.205.199"}
-        {"count":32,"time_first":1584419969,"time_last":1584436375,"rrname":"jppost-ari.top.","rrtype":"A","rdata":"154.9.205.199"}
-        {"count":33,"time_first":1584419671,"time_last":1584437963,"rrname":"jppost-aro.top.","rrtype":"A","rdata":"154.9.205.199"}
-        {"count":26,"time_first":1584426499,"time_last":1584441604,"rrname":"jppost-aru.top.","rrtype":"A","rdata":"154.9.205.199"}
-        {"count":10,"time_first":1584446390,"time_last":1584499301,"rrname":"jppost-awa.top.","rrtype":"A","rdata":"154.9.205.199"}
-        {"count":13,"time_first":1584199581,"time_last":1584234683,"rrname":"jppost-aya.top.","rrtype":"A","rdata":"154.9.205.199"}
-        {"count":15,"time_first":1584434712,"time_last":1584448520,"rrname":"jppost-ayo.top.","rrtype":"A","rdata":"154.9.205.199"}
-        {"count":22,"time_first":1584425539,"time_last":1584441938,"rrname":"jppost-ayu.top.","rrtype":"A","rdata":"154.9.205.199"}
-        {"count":8,"time_first":1584514506,"time_last":1584520746,"rrname":"jppost-aza.top.","rrtype":"A","rdata":"154.9.205.199"}
-    http_version: null
-  recorded_at: Thu, 19 Mar 2020 22:59:32 GMT
+  - request:
+      method: get
+      uri: https://api.dnsdb.info/lookup/rdata/ip/154.9.205.199
+      body:
+        encoding: US-ASCII
+        string: ""
+      headers:
+        Accept-Encoding:
+          - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+        Accept:
+          - application/json
+        User-Agent:
+          - Ruby
+        Host:
+          - api.dnsdb.info
+        X-Api-Key:
+          - "<CENSORED>"
+    response:
+      status:
+        code: 200
+        message: OK
+      headers:
+        Server:
+          - nginx/1.10.3
+        Date:
+          - Thu, 19 Mar 2020 22:59:32 GMT
+        Content-Type:
+          - application/json
+        Transfer-Encoding:
+          - chunked
+        Connection:
+          - keep-alive
+        Vary:
+          - Accept-Encoding
+        X-Ratelimit-Limit:
+          - "500"
+        X-Ratelimit-Remaining:
+          - "475"
+        X-Ratelimit-Reset:
+          - n/a
+        X-Ratelimit-Expires:
+          - "1587230628"
+        Access-Control-Allow-Origin:
+          - "*"
+        Access-Control-Expose-Headers:
+          - X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-RateLimit-Expires
+        Access-Control-Max-Age:
+          - "86400"
+        Access-Control-Allow-Credentials:
+          - "true"
+        Access-Control-Allow-Methods:
+          - GET, POST
+        Access-Control-Allow-Headers:
+          - Accept, Cache-Control, Pragma, Origin, Authorization, Cookie, Content-Type,
+            X-API-Key
+        Strict-Transport-Security:
+          - max-age=15768000
+        Expires:
+          - "-1"
+        Cache-Control:
+          - private, max-age=0
+      body:
+        encoding: ASCII-8BIT
+        string: |
+          {"count":56,"time_first":1583982411,"time_last":1584018672,"rrname":"jppost-afu.top.","rrtype":"A","rdata":"154.9.205.199"}
+          {"count":12,"time_first":1584463821,"time_last":1584492361,"rrname":"jppost-agi.top.","rrtype":"A","rdata":"154.9.205.199"}
+          {"count":6,"time_first":1584509576,"time_last":1584521235,"rrname":"jppost-ago.top.","rrtype":"A","rdata":"154.9.205.199"}
+          {"count":21,"time_first":1584499570,"time_last":1584521016,"rrname":"jppost-agu.top.","rrtype":"A","rdata":"154.9.205.199"}
+          {"count":27,"time_first":1583902132,"time_last":1583939001,"rrname":"jppost-aha.top.","rrtype":"A","rdata":"154.9.205.199"}
+          {"count":137,"time_first":1583905617,"time_last":1584052286,"rrname":"jppost-aho.top.","rrtype":"A","rdata":"154.9.205.199"}
+          {"count":131,"time_first":1583902113,"time_last":1584052635,"rrname":"jppost-ahu.top.","rrtype":"A","rdata":"154.9.205.199"}
+          {"count":41,"time_first":1584527769,"time_last":1584557867,"rrname":"jppost-aji.top.","rrtype":"A","rdata":"154.9.205.199"}
+          {"count":44,"time_first":1584080802,"time_last":1584146385,"rrname":"jppost-ame.top.","rrtype":"A","rdata":"154.9.205.199"}
+          {"count":31,"time_first":1584002751,"time_last":1584054701,"rrname":"jppost-amu.top.","rrtype":"A","rdata":"154.9.205.199"}
+          {"count":16,"time_first":1583902130,"time_last":1583917613,"rrname":"jppost-ane.top.","rrtype":"A","rdata":"154.9.205.199"}
+          {"count":41,"time_first":1583902131,"time_last":1583938559,"rrname":"jppost-ano.top.","rrtype":"A","rdata":"154.9.205.199"}
+          {"count":12,"time_first":1584297974,"time_last":1584328266,"rrname":"jppost-ara.top.","rrtype":"A","rdata":"154.9.205.199"}
+          {"count":9,"time_first":1584259619,"time_last":1584276694,"rrname":"jppost-are.top.","rrtype":"A","rdata":"154.9.205.199"}
+          {"count":32,"time_first":1584419969,"time_last":1584436375,"rrname":"jppost-ari.top.","rrtype":"A","rdata":"154.9.205.199"}
+          {"count":33,"time_first":1584419671,"time_last":1584437963,"rrname":"jppost-aro.top.","rrtype":"A","rdata":"154.9.205.199"}
+          {"count":26,"time_first":1584426499,"time_last":1584441604,"rrname":"jppost-aru.top.","rrtype":"A","rdata":"154.9.205.199"}
+          {"count":10,"time_first":1584446390,"time_last":1584499301,"rrname":"jppost-awa.top.","rrtype":"A","rdata":"154.9.205.199"}
+          {"count":13,"time_first":1584199581,"time_last":1584234683,"rrname":"jppost-aya.top.","rrtype":"A","rdata":"154.9.205.199"}
+          {"count":15,"time_first":1584434712,"time_last":1584448520,"rrname":"jppost-ayo.top.","rrtype":"A","rdata":"154.9.205.199"}
+          {"count":22,"time_first":1584425539,"time_last":1584441938,"rrname":"jppost-ayu.top.","rrtype":"A","rdata":"154.9.205.199"}
+          {"count":8,"time_first":1584514506,"time_last":1584520746,"rrname":"jppost-aza.top.","rrtype":"A","rdata":"154.9.205.199"}
+      http_version: null
+    recorded_at: Thu, 19 Mar 2020 22:59:32 GMT
 recorded_with: VCR 5.1.0

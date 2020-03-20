@@ -8,7 +8,7 @@ module DNSDB
   module Clients
     class Client
       HOST = "api.dnsdb.info"
-      BASE_URL = "https://#{HOST}/"
+      BASE_URL = "https://#{HOST}"
 
       def initialize(api_key)
         @api_key = api_key
